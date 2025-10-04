@@ -65,7 +65,7 @@ python ingest.py
 ✅ Stores embeddings into ChromaDB  
 
 **Screenshot:**  
-![Ingest Process](ingest.png)
+![Ingest Process](screenshot/ingest.png)
 
 ---
 
@@ -75,7 +75,7 @@ Run with a query:
 python -m search --query "What is the Scheduled Benefit for all members?" --print-top 3
 ```
 **Screenshot:**  
-![Search Results - Query 1](search.png)
+![Search Results - Query 1](screenshot/search.png)
 
 Repeat for two more queries:
 ```bash
@@ -83,8 +83,8 @@ python -m search --query "What is the procedure for filing a claim?" --print-top
 python -m search --query "What is the grace period for premium payments?" --print-top 3
 ```
 **Screenshots:**  
-- ![Search Results - Query 2](search_claim.png)  
-- ![Search Results - Query 3](search_grace.png)  
+- ![Search Results - Query 2](screenshot/search_claim.png)  
+- ![Search Results - Query 3](screenshot/search_grace.png)  
 
 ---
 
@@ -94,7 +94,7 @@ Run with a query:
 python generate.py --query "What is the Scheduled Benefit for all members?"
 ```
 **Screenshot:**  
-![Generated Answer - Query 1](generate.png)
+![Generated Answer - Query 1](screenshot/generate.png)
 
 Repeat for two more queries:
 ```bash
@@ -102,8 +102,8 @@ python generate.py --query "What is the procedure for filing a claim?"
 python generate.py --query "What is the grace period for premium payments?"
 ```
 **Screenshots:**  
-- ![Generated Answer - Query 2](generate_claim.png)  
-- ![Generated Answer - Query 3](generate_grace.png)  
+- ![Generated Answer - Query 2](screenshot/generate_claim.png)  
+- ![Generated Answer - Query 3](screenshot/generate_grace.png)  
 
 
 ---
