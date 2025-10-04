@@ -31,7 +31,7 @@ The system is divided into **three layers**:
 
 1. Clone the project:
 ```bash
-git clone <repo-url>
+git clone https://github.com/nigamreetesh84/MrHelpMate.git
 cd MrHelpMate
 ```
 
@@ -123,3 +123,9 @@ python generate.py --query "What is the grace period for premium payments?"
 ## ✅ Conclusion
 Mr.HelpMate AI successfully answers user queries from the insurance policy using a **RAG pipeline** with embeddings, vector search, reranking, and generative LLMs.  
 This demonstrates **practical AI retrieval systems** with caching, chunking strategy, and explainable answers with citations.
+
+---
+
+## 📧 Contact
+
+Created by [Reetesh Nigam](https://github.com/nigamreetesh84)
