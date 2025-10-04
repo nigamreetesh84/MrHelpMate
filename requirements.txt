@@ -1,0 +1,10 @@
+pdfplumber
+sentence-transformers
+chromadb
+transformers
+torch
+faiss-cpu
+openai
+tqdm
+spacy
+nltk

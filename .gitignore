@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Python-specific
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# IDE-specific
+.vscode/
+.idea/
+*.iml
+
+# ChromaDB persistent storage
+chroma_db/
+
+# Environment variables
+.env
